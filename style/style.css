@@ -1,0 +1,43 @@
+@charset "UTF-8";   
+    
+    .attribution { 
+        display: none;
+        font-size: 11px; 
+        text-align: center; 
+    }
+    
+    .attribution a { 
+        display: none;
+        color: hsl(228, 45%, 44%); 
+    }
+
+    body {
+        background-color: rgb(226, 241, 255);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        height: 98vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main {
+       background-color: #fff; 
+       border-radius: 20px;
+       text-align: center;
+       padding: 20px;
+       margin: 20px;
+    }
+
+    img {
+        border-radius: 10px;
+        max-width: 300px;
+    }
+
+    main h1 {
+        font-size: 1.7em;
+    }
+
+    main p {
+        color: gray;
+        font-size: 1.2em;
+    }
